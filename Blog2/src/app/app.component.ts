@@ -8,9 +8,4 @@ import { Observable } from '@firebase/util';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Blog2';
-  items: Observable<any[]>;
-  constructor(firestore: AngularFirestore) {
-    this.items = firestore.collection('items').valueChanges();
-  }
-}
+  title = 'Blog2'}

@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { AngularFirestore } from '@angular/fire/compat/firestore';
-import { Observable } from '@firebase/util';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +6,5 @@ import { Observable } from '@firebase/util';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Blog2'}
+  title = 'Blog2';
+}
